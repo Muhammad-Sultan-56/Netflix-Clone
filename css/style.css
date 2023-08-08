@@ -3,16 +3,22 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: black;
+}
 :root{
     --main-color : rgb(226, 0, 0);
 }
+/* Header */
 header{
     width: 100%;
     height: 100vh;
     background: radial-gradient(  rgba(0, 0, 0, 0.5)20%,rgba(0, 0, 0, 0.8)80%), url(/imgs/Header-Background\ .jpg);
     background-size: cover;
-   
+   border-bottom: 8px solid rgb(49, 49, 49);
 }
+
+/* Navbar  */
 nav{
     width: 100%;
     display: flex;
@@ -45,6 +51,7 @@ nav{
 #mail{
     background-color: rgba(0, 0, 0, 0.534);
     padding: 19px;
+    color: white;
     border: none;
     outline: 1px solid gray;
     border-radius: 5px;
@@ -66,3 +73,82 @@ nav{
     font-size: 1.5rem;
     border: none;
 }
+
+/* Header & Navbar End */
+
+
+
+/* TV Section Start */
+
+.tv-main{
+    height: 70vh;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 8px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    display: flex;
+}
+.tv-content{
+    width: 50%;
+    height: 100%;
+    padding: 90px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tv-content h1{
+    font-size: 3rem;
+}
+.tv-content p{
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+.tv-video{
+    width: 50%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+/* TV Section End */
+
+
+/* TV Section Start */
+
+.app-main{
+    height: 70vh;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 8px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    display: flex;
+}
+
+.app-img{
+    width: 50%;
+    height: 100%;
+     padding: 30px;
+}
+.app-img img{
+    float: right;
+}
+
+.app-content{
+    width: 40%;
+    height: 100%;
+    padding: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app-content h1{
+    font-size: 3rem;
+}
+.app-content p{
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
+
+/* TV Section End */
