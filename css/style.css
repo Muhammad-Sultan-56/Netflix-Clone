@@ -121,7 +121,7 @@ nav{
 /* TV Section End */
 
 
-/* TV Section Start */
+/* App Section Start */
 
 .app-main{
     height: 70vh;
@@ -159,4 +159,109 @@ nav{
 }
 
 
-/* TV Section End */
+/* App Section End */
+
+
+/* Promo Section Start */
+.promo-main{
+    height: 60vh;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 8px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.promo-content{
+    width: 60%;
+    color: white;
+    padding: 10px 200px;
+}
+.promo-content h1{
+    font-size: 3.5rem;
+}
+.promo-content p{
+    font-size: 1.5rem;
+}
+/* Promo Section End */
+
+
+/* Profile Section Start */
+
+.profile-main{
+    height: 70vh;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 8px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    display: flex;
+}
+
+.profile-img{
+    width: 50%;
+    height: 100%;
+     padding: 30px;
+}
+.profile-img img{
+    float: right;
+}
+
+.profile-content{
+    width: 45%;
+    height: 100%;
+    padding: 45px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-content h1{
+    font-size: 3rem;
+}
+.profile-content p{
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
+
+/* Profile Section End */
+
+
+/* FAQ Section Start */
+
+.faq-main{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 8px solid rgb(49, 49, 49);
+    padding: 50px 150px;
+   
+}
+.faq-main h1{
+font-size: 3.5rem;
+color: white;
+text-align: center;
+}
+
+.questions{
+    margin: 20px;
+    box-sizing: border-box;
+}
+.q1{
+    width: 100%;
+    background-color:rgb(49, 49, 49);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.q1 p{
+    color: white;
+    font-size: 1.5rem;
+}
+.icon{
+    position: relative;
+    left: 78%;
+    font-size: 2.8rem;
+}
+
+/* FAQ Section End */
