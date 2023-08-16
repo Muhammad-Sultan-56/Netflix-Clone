@@ -148,14 +148,13 @@ nav{
 .tv-video{
     width: 40%;
     height: 80%;
-    background-image: url(../imgs/tv.png);
+    background: url(../imgs/tv.png);
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 3;
 }
 .video{ 
     z-index: -3;
+    
 }
 
 
@@ -189,7 +188,7 @@ nav{
         line-height: 33px;
     }
     .tv-video{
-        width: 100%;
+        width: 60%;
         background-image: url(../imgs/tv.png);
         background-size: cover;
         display: flex;
@@ -435,8 +434,8 @@ text-align: center;
     font-size: 1.5rem;
 }
 .icon{
-    position: relative;
-    left: 75%;
+    position: absolute;
+    left: 80%;
     font-size: 2rem;
 }
 .ans{
@@ -449,7 +448,16 @@ text-align: center;
 .ans p{
     color: white;
     word-spacing: 2px;
-    font-size: 1.2rem;
+    line-height: 35px;
+    font-size: 1.5rem;
+}
+.questions-end{
+    margin-top: 50px;
+}
+.questions-line{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 @media screen and (max-width:778px) {
@@ -484,8 +492,8 @@ text-align: center;
         font-size: 1.5rem;
     }
     .icon{
-        position: relative;
-        left: 35%;
+        position: absolute;
+        left: 75%;
         font-size: 2rem;
     }
     .ans{
@@ -502,3 +510,17 @@ text-align: center;
     }
 }
 /* FAQ Section End */
+
+
+/* Footer Section Start  */
+
+footer{
+height: 500px;
+width: 100%;
+padding: 50px 0px;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+/* Footer Section End */
