@@ -521,6 +521,12 @@ padding: 50px 0px;
 display: flex;
 justify-content: space-evenly;
 }
+.list1 ul, .list2 ul, .list3 ul{
+    list-style: none;
+}
+.list1 ul li a , .list2 ul li a, .list3 ul li a{
+    color: rgb(185, 185, 185);
+}
 
 
 /* Footer Section End */
